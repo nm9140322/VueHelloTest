@@ -1,0 +1,61 @@
+/* #region 左邊第一題*/
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    transform: translate(0, -50%);
+}
+
+.title {
+    margin: 5% 0;
+    color: #F7FAF9;
+}
+
+.result {
+    color: #f7faf9cd;
+}
+
+.sentence{
+    margin-bottom: 5%;
+}
+
+.form-control {
+    width: 40vw;
+}
+
+.submitBtn {
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: auto;
+}
+
+.alert-error {
+    border-radius: 12px;
+    border: 1px solid #e4174aea;
+    color: #e4174aea;
+    margin-bottom: 0;
+}
+/* #endregion 左邊第一題*/
+
+/* #region 右邊第二題*/
+.countrydata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    transform: translate(0, -40%);
+}
+
+table {
+    font-size: larger;
+    text-align: center;
+}
+
+/* #endregion 右邊第二題*/
